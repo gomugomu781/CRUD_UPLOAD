@@ -35,8 +35,8 @@ if( isset($_POST["submit"]) ) {
 	<form action="" method="post" enctype="multipart/form-data">
 		<ul>
 			<li>
-				<label for="nIp">NIM : </label>
-				<input type="text" name="nip" id="nip" required>
+				<label for="nim">NIM : </label>
+				<input type="text" name="nim" id="nim" required>
 			</li>
 			<li>
 				<label for="nama">Nama : </label>

@@ -44,8 +44,8 @@ if( isset($_POST["submit"]) ) {
 		<input type="hidden" name="gambarLama" value="<?= $mhs["gambar"]; ?>">
 		<ul>
 			<li>
-				<label for="nrp">NRP : </label>
-				<input type="text" name="nrp" id="nrp" required value="<?= $mhs["nrp"]; ?>">
+				<label for="nim">NIM : </label>
+				<input type="text" name="nim" id="nim" required value="<?= $mhs["nim"]; ?>">
 			</li>
 			<li>
 				<label for="nama">Nama : </label>
